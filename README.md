@@ -9,7 +9,7 @@ Projekt strony internetowej prezentującej statystyki udziału systemów operacy
 - **Nawigacja** – stały pasek boczny (sidebar) ułatwiający przełączanie się między sekcjami.
 
 ## Technologie
-- **HTML/CSS3** 
+- **HTML/CSS** 
 - **JavaScript(Chart.js)**
 - **PapaParse** (przetwarzanie plików CSV)
 

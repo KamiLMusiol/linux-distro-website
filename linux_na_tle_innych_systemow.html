@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statystyki Systemów Operacyjnych</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <link rel="stylesheet" href = "css/templatki.css" type = "text/css" />
+	<link rel="stylesheet" href = "css/kolorki_do_str_tyt.css" type = "text/css" />
+	<link rel="stylesheet" href = "css/linux_nat_tle_innych_systemów.css" type = "text/css" />
+</head>
+<body>
+
+
+
+    <div class="container1 bg-systems">
+			
+			
+			<div class="left_column1">
+				<img src="png/systemy.png">
+			</div>
+			
+			<div class="center_column1">
+				<h2>Systemy operacyjne</h2>
+				<p class="opis1">  </p>
+			</div>
+			
+			
+			
+			<div class="right_column1">
+				<p class="opis2"> Strona pokazująca udział różnych dystrybucji na rynku. </p>
+			 </div>
+		 
+
+		 </div>
+	 
+	 
+
+		<div class="main-layout">	 
+			<aside class="sidebar">
+				<h4>Menu</h4>
+				<ul>
+					<li><a href="ubuntu.html">Ubuntu</a></li>
+					<li><a href="debian.html">Debian</a></li>
+					<li><a href="fedora.html">Fedora</a></li>
+                    <li><a href="linux_na_tle_innych_systemow.html">Linux na tle innych systemów</a></li>
+					
+					
+				</ul>
+			</aside>
+
+			<main class="content">
+				<div class = "charts">
+         <canvas id="barChart"></canvas>
+   				 </div>
+
+
+				
+
+				<br><br>
+				<div class = "charts">
+         <canvas id="pieChart"></canvas>
+   				 </div>
+
+			</main>
+		</div>
+    
+    <script src="js/chart.js"></script>
+</body>
+</html>

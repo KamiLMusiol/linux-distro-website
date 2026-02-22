@@ -1,0 +1,106 @@
+
+
+body
+{
+	
+	background-color: white;
+	
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	
+}
+/*kontener na pasek górny */
+
+
+.container1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 120px; 
+    background-color: #E0E0E0;
+    width: 100%;
+    display: flex;
+    z-index: 100; 
+}
+
+
+/*ikona systemu operacyjnego*/
+.left_column1
+{	
+	width: 120px;      
+    height:120px;
+   
+	
+}
+.left_column1 img {
+	
+    width: 150px;      
+    height:100%;
+    object-fit: contain; 
+}
+
+/*nazwaa systemu operacyjnego - kontener*/
+.center_column1
+{
+	
+	padding-left: 20px;
+	width: 20%;
+}
+
+/*tytuł strony*/
+.right_column1
+{
+	flex:5;
+	width: 80%;
+	
+	
+}
+
+/*dodatkowy opis do górnego paska*/
+.opis1
+{
+	font-size: 20px;
+
+}
+
+/*tytuł*/
+.opis2
+{
+	font-size: 30px;
+	align-items: center;
+
+}
+
+
+/*głowna część strony */
+.main-layout {
+	margin-top: 140px;
+	
+    display: flex;         
+    min-height: 100vh;    
+	gap: 20px;
+	width: 50%;
+}
+
+
+/*pasek boczny */
+.sidebar {
+    position: fixed;
+    top: 120px; 
+    left: 0;
+    width: 150px; 
+    height: calc(100vh - 120px);
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid black;
+}
+
+.content {
+	
+	margin-left: 300px;
+    display: flex;         
+    min-height: 100vh;    
+	width: 100%;
+	flex-direction: column;
+}
